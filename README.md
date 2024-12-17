@@ -87,4 +87,9 @@ The `dataset_code.py` generates synthetic data with some probable features like 
 
 ### 5. Usage
 1. Replicate conda environment: `conda env create -f environment.yml`
-2. Run `python3 int_test.py`
+2. Add video length, complexity score (optional), model path `video_translation_model.pkl` in the `config.json` file.
+3. Run `python3 ./tests/int_test.py`
+
+### 6. Sample Output
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/fce3fc23-7e24-4e85-8db4-24539c172307" />
+
