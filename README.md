@@ -34,7 +34,7 @@ The library is built with a customer-focused mindset:
 
 
 ### 3. Machine Learning Model
-The `dataset_code.py` generates synthetic data with some probable features like video length, complexity score, and time to complete to simulate the predictive nature of the problem. This can be adjusted based on additional features which could improve the predictive capability of the model. My idea was to convey the approach effectively, and not build a robust machine learning model. Hence, the current algorithm is a simple random forest regressor with an erorr of around 300 seconds. This can be improved.
+The `dataset_code.py` generates synthetic data with some probable features like video length, complexity score, and time to complete to simulate the predictive nature of the problem. This can be adjusted based on additional features which could improve the predictive capability of the model. My idea was to convey the approach effectively, and not build a robust machine learning model. Hence, the current algorithm is a simple random forest regressor with an erorr of around 600 seconds. This can be improved.
 
 ### 4. Code File Breakdown
 
