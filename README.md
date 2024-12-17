@@ -33,10 +33,10 @@ The library is built with a customer-focused mindset:
 * Performance: The adaptive polling mechanism ensures that both server and client resources are used efficiently, striking a balance between responsiveness and resource consumption.
 
 
-### Machine Learning Model
+### 3. Machine Learning Model
 The `dataset_code.py` generates synthetic data with some probable features like video length, complexity score, and time to complete to simulate the predictive nature of the problem. This can be adjusted based on additional features which could improve the predictive capability of the model. My idea was to convey the approach effectively, and not build a robust machine learning model. Hence, the current algorithm is a simple random forest regressor with an erorr of around 300 seconds. This can be improved.
 
-### Code File Breakdown
+### 4. Code File Breakdown
 
 ### 1. **`server.py`**
    - **Purpose**: Simulates the video translation backend and serves an API to check the translation status.
@@ -85,6 +85,6 @@ The `dataset_code.py` generates synthetic data with some probable features like 
 - **`intest.py`**: Automates testing of the client-server interaction.
 - **`config.json`**: Stores key configuration for the server and model.
 
-### Usage
+### 5. Usage
 1. Replicate conda environment: `conda env create -f environment.yml`
 2. Run `python3 int_test.py`
