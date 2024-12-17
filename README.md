@@ -86,5 +86,5 @@ The `dataset_code.py` generates synthetic data with some probable features like 
 - **`config.json`**: Stores key configuration for the server and model.
 
 ### Usage
-1. `pip install requirements.txt`
-2. `python3 int_test.py`
+1. Replicate conda environment: `conda env create -f environment.yml`
+2. Run `python3 int_test.py`
