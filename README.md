@@ -77,7 +77,7 @@ The `dataset_code.py` generates synthetic data with some probable features like 
    - **Key functionality**:
      - Stores the configuration for video translation settings (e.g., video length, complexity score) and the path to the saved ML model (`video_translation_model.pkl`).
 
-## Summary of Unique Features:
+###  Summary of Unique Features:
 - **`server.py`**: Uses ML to predict translation time and adjusts status reporting accordingly.
 - **`ml_dataset.py`**: Generates synthetic data to train the ML model.
 - **`ml_model.py`**: Trains and saves the ML model for predicting translation time.
